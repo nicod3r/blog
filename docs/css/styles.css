@@ -1,0 +1,72 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555;
+    padding: 10px 20px;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    padding: 10px 20px;
+    line-height: 1.6;
+  }
+  
+  /* Link Styles */
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Menu Styles */
+  .menu {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #575757;
+  }
+  

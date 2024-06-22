@@ -1,0 +1,17 @@
+{
+  "name": "blog11tyv1.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port=7777",
+    "build":"eleventy",    
+    "clean": "rm -rf docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
